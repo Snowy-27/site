@@ -1,0 +1,83 @@
+body {position: relative;}
+footer {position: absolute; bottom: 8;}
+
+
+body{
+	background: url("https://images3.alphacoders.com/598/598903.jpg");
+	background-size: 100%;
+	
+
+
+}
+ul li.btn a{
+	color: white;
+}
+ul li{
+	list-style-type: none; 
+	display: inline-block;
+	padding-left: 30px;
+}
+p.explication{
+	padding-left: 144px;
+
+}
+
+a{
+	color: yellow;
+	padding-left: 144px
+	
+	
+}
+body div.explication{
+	padding-left: 644px;
+	padding-top: 44px;
+}
+body p{
+	padding-left: 644px;
+	padding-top: 44px;
+	font-size: 35px;
+}
+footer div.bouton a img{
+	position: relative;
+		top: 669px;
+		left: 529px;
+}
+footer h3.prenom{
+	position: relative;
+		top: 669px;
+		left: 787px;
+	font-size: 50px;
+	color: white;
+}
+@media screen and (max-width: 1280px){
+
+	*{
+		background-color: #1e2334;
+
+	}
+	footer div.bouton a img{
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	ul li.btn a{
+	color: white;
+	padding-right: 944px;
+	}
+	body { 
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	p{
+
+		position: relative;
+			right: 644px;
+	}
+	p a{
+		font-size: 14px;
+		text-align: justify-all;
+		margin: 10px;
+	}
+
+}
