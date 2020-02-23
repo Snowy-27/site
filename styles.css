@@ -49,35 +49,3 @@ footer h3.prenom{
 	font-size: 50px;
 	color: white;
 }
-@media screen and (max-width: 1280px){
-
-	*{
-		background-color: #1e2334;
-
-	}
-	footer div.bouton a img{
-		display: none;
-	}
-	footer {
-		display: none;
-	}
-	ul li.btn a{
-	color: white;
-	padding-right: 944px;
-	}
-	body { 
-		overflow-x: hidden;
-		overflow-y: hidden;
-	}
-	p{
-
-		position: relative;
-			right: 644px;
-	}
-	p a{
-		font-size: 14px;
-		text-align: justify-all;
-		margin: 10px;
-	}
-
-}
